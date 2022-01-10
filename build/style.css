@@ -9,8 +9,7 @@ License URI: LICENSE
 Text Domain: grit
 Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
 */
-entry-header
-/*--------------------
+#home-banner/*--------------------
 >>> TABLE OF CONTENTS:
 ----------------------
 1.0 Normalize
@@ -70,7 +69,7 @@ html, body {
 	padding: 0;
 	/* background-color: #000; */
 }
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h4, h5, h6 {
 	font-family: 'Montserrat', sans-serif;
 	margin: 15px 0 25px;
 }
@@ -82,9 +81,14 @@ h2 {
 	font-weight: 700;
 	font-size: 32px;
 }
-h3 {
+.title_agence{
+	padding-top: 15%;
+}
+.title_agence_h3 {
 	font-weight: 600;
 	font-size: 24px;
+	font-family: 'Montserrat', sans-serif;
+	
 }
 h4 {
 	font-weight: 500;
@@ -2449,7 +2453,7 @@ embed, iframe, object {
 	font-size: 2rem;
 	line-height: 1.2;
 	max-width: 650px;
-	margin: 0 auto;
+	margin: 13% auto 0 auto;
 }
 #agence-banner h1 {
 	color: #fff;
